@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html,
+body {
+  @include wh(100%, auto);
+  font-family: $font-base;
+  overflow: auto;
+}
+
+// Reset properties
+a {
+  text-decoration: none;
+}
+
+// input[type="checkbox"],
+// input[type="radio"] {
+//     display: none;
+// }
+
+input {
+  outline: 0;
+}
+
+label,
+button {
+    cursor: pointer;
+}
+
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#main-wrapper {
+  @include wh(100%, auto);
+ 
+}

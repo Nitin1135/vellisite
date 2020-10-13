@@ -1,0 +1,552 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: 0;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+/*Header style*/
+#main-wrapper .banner_fluid_bg{
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: 50%;
+  background-position-x: right;
+  padding: 0;
+
+}
+.collapse.navbar-collapse{
+  justify-content: flex-end;
+  /*background-color: #fff;*/
+}
+.navbar-nav .nav-item .nav-link{
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  color: #696969;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  background-color: #aedf74;
+  border-radius: 30px;
+  color: #fff;
+}
+.active{
+  background-color: #aedf74;
+  border-radius: 30px;
+  color: #fff;
+}
+.navbar .navbar-brand{
+  padding-left: 1.5rem;
+}
+.navbar .navbar-brand .Vanille_logo{
+  width: 100px;
+}
+#main-wrapper .container .navbar{
+  padding: 1.5rem 1rem;
+}
+
+.banner_highlight_text{
+  width: 50%;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.banner_highlight_text h2{
+  font-weight: 800; 
+  margin-bottom: 25px;
+}
+.banner_highlight_text p{
+  font-size: 14px;
+}
+.highlight_text_btn{
+  margin-top: 30px;
+}
+.highlight_text_btn .explore_btn{
+  border-radius: 30px;
+  border:0;
+  background-color: #88c342;
+  padding: 10px;
+  font-size: 14px;
+  width: 170px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.litrature-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.litrature-list{
+  padding: 15px 40px;
+  background-color: #f5f3f4;
+}
+.litrature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.litrature-list .litrature .litrature-i{
+  background-color: #88c63d;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.litrature-list .litrature .litrature-i i{
+  font-size: 30px;
+  color: #fff;
+}
+.litrature-list .litrature span:nth-child(2){
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.content-wrapper-bgc{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: 50%;
+  background-position-x: left;
+}
+.content_mint_bg{
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: 30%;
+  background-position-x: right;
+  width: 50%;
+}
+.content_highlight_text{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.content_highlight_text span{
+  font-size: 14px;
+  color: #88c63d;
+  font-weight: 800;
+}
+.content_highlight_text h2{
+  font-weight: 800; 
+  margin-bottom: 10px;
+}
+.content_highlight_text p{
+  font-size: 14px;
+}
+.content_highlight_bottom_img{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+.content_highlight_bottom_img img{
+  width: 225px;
+
+}
+
+/*.products-titals*/
+.products-titals{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0 30px 0;
+}
+.products-titals span{
+  font-size: 14px;
+  font-weight: 800;
+  color: #88c63d;
+}
+.products-titals h2{
+  font-size: 36px;
+  font-weight: 800;
+}
+
+/*recipes-titals*/
+.recipes-titals{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*margin: 50px 0 30px 0;*/
+}
+.recipes-titals span{
+  font-size: 14px;
+  font-weight: 800;
+  color: #88c63d;
+}
+.recipes-titals h2{
+  font-size: 36px;
+  font-weight: 800;
+}
+
+/*testimonial-container*/
+.testimonial-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 50px 0 30px 0;
+}
+.testimonial-titals{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonial-titals span{
+  font-size: 14px;
+  font-weight: 800;
+  color: #88c63d;
+}
+.testimonial-titals h2{
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+.green_masala_bg img{
+  width: 250px;
+}
+.red_masala_bg img{
+  width: 250px;
+}
+.testimonial-titals .card{
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.testimonial-titals .card .card-profile .avtar{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.testimonial-titals .card .card-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 50px 15px 50px;
+}
+.testimonial-titals .card .card-body .avtar-details{
+  font-size: 14px;
+  text-align: center;
+}
+/*card container*/
+.card-slide-content .card_control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.card-slide-content .card_control span{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+  background-color: #88c63d;
+  color: #fff;
+}
+.card-deck .card .card-img img{
+  width: 130px;
+  height: 200px;
+}
+.card-deck .card .card-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.card-deck .card{
+  width: 230px;
+  flex:none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card .card-body .card_add_btn{
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 0;
+  padding: 5px 20px;
+}
+
+
+
+.Questions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Questions h2{
+  font-size: 36px;
+  font-weight: 800;
+}
+
+
+/*footer css*/
+.footer-container{
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: 50%;
+  background-position-x: right;
+  padding: 0;
+}
+.footer-container .footer-box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.footer-box .footer_logo{
+  margin-top: 15px;
+}
+.footer-box .footer_logo img{
+  width: 130px;
+}
+.footer_links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_links div ul{
+  margin: 15px;
+}
+.footer_links div ul li{
+  font-size: 14px;
+}
+.footer_links div ul li:nth-child(1){
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  #navbarNav{
+    display: block;
+  }
+  .banner_highlight_text{
+    width: 100%;
+    padding: 0px;
+  }
+  .litrature-container{
+    flex-wrap: wrap;
+  }
+  .litrature-list{
+    margin: 15px 0 0px 0;
+    padding: 15px 25px;
+  }
+  .content-wrapper-bgc{
+    padding: 0;
+  }
+  .content_mint_bg{
+    background-size: 25%;
+  }
+  .content_highlight_text{
+    width: 100%;
+  }
+  .content_highlight_text h2{
+    margin-top: 10px;
+  }
+  .highlight_bottom_img img{
+    width: 400px;
+  }
+  .card-slide-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .testimonial-container{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .testimonial-titals .card{
+    width: 375px;
+  }
+  .testimonial-container .red_masala_bg{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .testimonial-container .green_masala_bg{
+    width: 100%;
+  }
+  .products-titals h2{
+    font-size: 30px;
+  }
+  .recipes-titals h2{
+    font-size: 30px;
+  }
+  .testimonial-titals h2{
+    font-size: 30px;
+  }
+  .Questions h2{
+    font-size: 30px;
+  }
+  .footer-box{
+    flex-wrap: wrap;
+  }
+  .footer-box .footer_links{
+    align-items: baseline;
+  }
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .navbar .navbar-brand .Vanille_logo{
+    width: 120px;
+  }
+  #main-wrapper .container .navbar{
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .collapse:not(.show){
+    display: block;
+  }
+  .navbar-nav{
+    flex-direction: row;
+  }
+  .banner_highlight_text h2{
+    font-size: 27px;
+  }
+  .content_highlight_text h2{
+    font-size: 30px;
+  }
+  .highlight_bottom_img img{
+    width: 50%;
+  }
+  .litrature-list .litrature span{
+    text-align: center;
+  }
+  .litrature-list .litrature .litrature-i{
+    width: 40px;
+    height: 40px;
+  }
+  .litrature-list .litrature .litrature-i i{
+    font-size: 25px;
+  }
+  .litrature-list{
+    padding: 15px 20px;
+  }
+
+  .content_mint_bg{
+    background-size: 45%;
+  }
+  .content-wrapper-bgc{
+    background-size: 45%;
+    padding: 0;
+  }
+  .recipes-titals{
+    margin: 50px 0 30px 25px;
+  }
+  .card-deck{
+    margin: 0;
+  }
+  .green_masala_bg img{
+    width: 200px;
+  }
+  .red_masala_bg img{
+    width: 200px;
+  }
+  .Questions h2{
+    font-size: 30px;
+  }
+  .products-titals h2{
+    font-size: 30px;
+  }
+  .recipes-titals h2{
+    font-size: 30px;
+  }
+  .testimonial-titals h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .testimonial-titals .card{
+    width: 360px;
+  }
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar .navbar-brand .Vanille_logo{
+    width: 150px;
+  }
+  .highlight_bottom_img img{
+    width: 40%;
+  }
+  .content-wrapper-bgc{
+    padding: 0;
+  }
+  .card-deck{
+    margin: 0;
+  }
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .navbar .navbar-brand .Vanille_logo{
+    width: 175px;
+  }
+  .content-wrapper-bgc{
+    padding: 0;
+    background-size: 32%;
+  }
+  .card-deck{
+    margin: 0;
+  }
+  .green_masala_bg img{
+    width: 300px;
+  }
+  .red_masala_bg img{
+    width: 300px;
+  }
+  .content_highlight_bottom_img img{
+    width: 300px;
+  }
+}
